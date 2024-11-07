@@ -34,7 +34,7 @@ function App() {
       setError(
         err instanceof Error ? err.message : "Unknown Error: api.get.data"
       );
-      console.log(err);
+      console.log(error);
     } finally {
       console.log("fetchDone");
     }

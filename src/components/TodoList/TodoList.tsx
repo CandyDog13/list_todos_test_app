@@ -1,4 +1,3 @@
-import React from "react";
 import { FC } from "react";
 import styles from "./TodoList.module.css";
 import cn from "classnames";
